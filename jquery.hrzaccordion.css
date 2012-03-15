@@ -1,0 +1,31 @@
+ul.accordion {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.accordion li{
+  float: left;
+  padding: 10px;
+  display: block;
+  margin-right: 10px;
+}
+
+ul.accordion li a{
+  display: block;
+  overflow: hidden;
+  height: 75px;
+  width: 75px;
+}
+
+ul.accordion li img{
+  position: absolute;
+  border: 3px solid #881212;
+}
+
+ul.accordion li p{
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-left: 85px;
+}
